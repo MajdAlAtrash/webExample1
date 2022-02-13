@@ -1,0 +1,149 @@
+/****************** Basic *************************/
+body {
+	padding: 0em;
+	margin: 0em;
+	color: #102a43;
+	background-color: #f5f5f5;
+}
+a, a:hover, a:focus, a:active, a:visted { 
+	text-decoration: none;
+	color: inherit; 
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+.center {
+	width: 100%;
+}
+.text-center {
+	text-align: center;
+}
+@media(min-width: 700px) {
+	.center {
+		padding: 0em 8% !important;
+		width: 84% !important;
+	}
+	#menu-info {
+		right: 8% !important;
+	}
+}
+/***************** Header *************************/
+header {
+	padding: 0em;
+	margin: 0em;
+	position: fixed;
+	top: 0em;
+	width: 100%;
+	background-color: #5555;
+	text-transform: uppercase;
+}
+.icon-bcr {
+	display: table-cell;
+	padding-top: 0.2em;
+	font-size: 2em;
+	float: left;
+}
+.menu-item:hover {
+	color: #fff;
+	border-color: #fff;
+	background-color: #28b0a2;
+}
+.menu-item-search {
+
+	text-align: center;
+}
+#search {
+	font-size: 1.2em;
+	border: solid;
+	border-color: #555;
+	border-width: 0em 0em 0.5em 0em;
+	border-radius: 15%;
+	padding: 0.5em 2%;
+	background-color: inherit;
+	width: 30%;
+	height: 100%;
+}
+#menu-info {
+	position: absolute;
+	top: 50px;
+	left: 30%;
+	right: 0em;
+
+	padding: 1em 0em;
+
+	text-align: center;
+	color: #fff;
+	background-color: #28b0a2;
+}
+/*************** Main Items ***********************/
+.top-item {
+	margin-top: 5em;
+}
+.items {
+	display: inline-block;
+}
+.item1 {
+	display: inline-block;
+	width: 84%;
+}
+.item3 {
+	display: inline-block;
+	float: left;
+	margin: 1em;
+	width: 20em;
+}
+/*************** Mini Items ***********************/
+h1, h2, h3, h4 {
+	color: #28b0a2;
+}
+.not-visible {
+	display: none;
+}
+.item-right {
+	float: right;
+	padding: 1em 2%;
+}
+figure {
+	background-color: #fafafa;
+}
+figure p, figure span table {
+	margin: 2em;
+}
+.item-left {
+	float: left;
+	margin: 1em;
+	width: 20em;
+}
+.img {
+	width: 100%;
+}
+.table-info {
+	width: 50%;
+
+}
+.table-cell-left {
+	padding-left: 1em;
+}
+.table-cell {
+	padding: 1em;
+	text-align: center;
+	color: #fff;
+	border-color: #28b0a2;
+	background-color: #28b0a2;
+}
+.read-more3, .read-more1 {
+	cursor: pointer;
+}
+/************** Footer ***************************/
+footer {
+	padding: 0em;
+	margin: 0em;
+	width: 100%;
+	background-color: #5555;
+}
+.item-left-b {
+	float: left;
+	margin: 3%;
+	width: 35%;
+}
